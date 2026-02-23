@@ -44,9 +44,10 @@ while True:
         print("\n----------- EXTRATO ---------------------")
         print(f"Saldo atual     | R${saldo:.2f}")
         print(f"Ultimo deposito | R${valorDepositado:.2f}")
-        print(f"Ultimo saque    | {valorSaque:.2f}")
+        print(f"Ultimo saque    | R${valorSaque:.2f}")
         print ("-------------------------------------------")
 
     elif opcao == 5:
     # break para voltar para o menu de login
+
         break
